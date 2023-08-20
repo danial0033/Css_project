@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.image1{
+    background-image: url("images/tim-mossholder-07uiqD9LS6U-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.text1{
+    color: white;
+    display: inline-block;
+}
+.titr1{
+    margin: 40px 0px 70px ;
+    border-left: 5px double blueviolet;
+    border-right: 5px double blueviolet;
+    background-color:rgba(184, 135, 11, 0.747);
+    padding: 30px;
+    border-radius: 10px 10px ;
+}
+.matne1{
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: rgba(0, 100, 0, 0.747);
+    border-left: 5px double white;
+    border-right: 5px double white;
+    padding: 15px;
+    border-radius: 10px 10px;
+}
+.box1,.box2{
+    width: 100vw;
+    height: 15vh;
+    background-color: darkgray;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: tomato;
+}
+.image2{
+    background-image: url("images/henry-co-M3KfixgdCko-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    text-align: right;
+}
+.matne2{
+    width: 35vw;
+    height: 80vh;
+    font-size: large;
+    margin:60px 80px;
+    display: inline-block;
+    border: 6px double green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    backdrop-filter:blur(5px);    
+}
+.photo2{
+    background-image: url("images/1-img-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 50%;
+    padding-bottom: 120px;
+    margin-bottom: 30px;
+    display:inline-block;
+    width:  35vw;
+    height: 50vh;
+    margin-top: 60px;
+}
+.image3{
+    background-image: url("images/neom-ckfXPMb2_BI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+.caption{
+    text-align: center;
+}
+.photo3{
+    background-image: url("images/SteveJobsCloseUp.jpeg.webp");
+    background-size: cover;
+    background-position: center;
+    width: 35vw;
+    height: 25vh;
+    display: inline-block;
+    margin-top: 90px;
+    padding-top: 50px;
+    border-radius: 10px;
+
+}
+.matne3{
+    width: 35vw;
+    height: 25vh;
+    color: rgb(234, 0, 255);
+    font-size: x-large;
+    font-family: Arial;
+    display: inline-block;
+    margin: 0;
+    backdrop-filter: blur(5px);
+}
