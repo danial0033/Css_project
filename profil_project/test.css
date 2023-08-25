@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-color: darkgrey;
+}
+.image1{
+    background-image: url("images/SteveJobsCloseUp.jpeg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    border-radius:20%;
+}
+.image2{
+    background-image: url("images/Steve\ Jobs\ _7_.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-attachment: fixed;
+    padding-bottom: 50vh;
+}
+.text{
+    width: 35vw;
+    height: 80vh;
+}
+.t1{
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+}
+.t2{
+    font-size: x-large;
+}
+.khat{
+    margin: 0;
+}
+.m1{
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+.a1{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
