@@ -21,9 +21,8 @@ body{ /* body start */
     font-size: x-large;
     background-color: rgba(0, 0, 0, 0.555);
     padding: 10px;
-} 
+}
 .navbar a{
-    margin: 20px;
     padding: 10px;
     text-decoration: none;
     color: white;
@@ -35,13 +34,12 @@ a:hover{
 
 .zone1{ /* zone1 start */
     margin: 0 auto;
-    padding-top: 20px;
 }
 .title_zone1{
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 60px;
-    font-size: 40px;
+    margin-bottom: 100px;
+    font-size: 50px;
     color: #850000b9;
     font-family:'ABeeZee';
     font-weight: bold;
@@ -56,7 +54,7 @@ a:hover{
     background-position: center;
     width: 800px;
     height: 500px;
-    border: 5px dashed gold;
+    border: 5px solid gold;
     font-size: 0;
     border-radius: 20px;
     margin: 0 auto;
@@ -80,4 +78,37 @@ a:hover{
 }
 .box_zone1:hover .text_box_zone1{
     text-shadow: 2px 2px 2px red;
+}/* zone1 end */
+
+.line_section1{ /* line stat */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}/* line end  */
+
+.box1_zone2{ /* zone2 start */
+    width: 1100px;
+    height: 250px;
+    border: 2px solid #d69200;
+    border-collapse: collapse;
+    background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    margin: 0 auto;
 }
+.image1_zone2{
+    width: 370px;
+    height: 270px;
+}
+.text_zone2{
+    color: white;
+    height: 215px;
+    width: 650px;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    padding: 10px;
+}
+.title_text_zone2{
+    color: red;
+    font-size: 27px;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+}
+
