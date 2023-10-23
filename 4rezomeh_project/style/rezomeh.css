@@ -91,7 +91,7 @@ a:hover{
     border-collapse: collapse;
     background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     margin: 0 auto;
-    box-shadow: -10px -10px 10px orangered;
+    box-shadow: -10px -10px 10px saddlebrown;
 }
 .image1_zone2{
     width: 370px;
@@ -120,7 +120,7 @@ a:hover{
     background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     margin: 0 auto;
     margin-top: 30px;
-    box-shadow: 10px 10px 10px orangered;
+    box-shadow: 10px 10px 10px saddlebrown;
 }
 .image2_zone2{
     width: 380px;
@@ -146,13 +146,12 @@ a:hover{
     margin-top: 40px;
 } /* line_section2 end */
 
-.box1_zone3{ /* zone3 stat */ /*box1_zone3 */
+.box1_zone3{ /* zone3 stat */ /*box1_zone3 start*/
     width: 280px;
     height: 500px;
     border: 5px solid yellow;
     border-radius: 20px;
     background-color: #00000077;
-    margin: 0 auto;
 }
 .image_box1_zone3{
     width: 280px;
@@ -167,4 +166,48 @@ a:hover{
     border-radius: 20px;
     text-align: justify;
     font-family: 'AR One Sans';
+} /* box1_zone3 end */
+
+.box2_zone3{ /* box2_zone3 start */
+    width: 280px;
+    height: 500px;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    background-color: #00000077;
 }
+.image_box2_zone3{
+    width: 280px;
+    height: 240px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.text_box2_zone3{
+    color: white;
+    font-size: 14px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: justify;
+    font-family: 'AR One Sans';
+} /* box2_zone3 end */
+
+.box3_zone3{ /* box3_zone3 start */
+    width: 280px;
+    height: 500px;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    background-color: #00000077;
+}
+.image_box3_zone3{
+    width: 280px;
+    height: 240px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.text_box3_zone3{
+    color: white;
+    font-size: 14px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: justify;
+    font-family: 'AR One Sans';
+} /* box3_zone3 end */
