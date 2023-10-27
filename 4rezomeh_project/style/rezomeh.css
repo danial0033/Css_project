@@ -11,7 +11,8 @@ body{ /* body start */
 } /* body end */
 
 .header{ /* header start */
-    padding:20px
+    padding-bottom:20px;
+    padding-top: 20px;
 } /* header */
 
 .navbar{ /* navbar start */
@@ -31,8 +32,10 @@ a:hover{
     color: #000000;
 }/* navbar end */
 
-.zone1{ /* zone1 start */
+#zone1{ /* zone1 start */
     margin: 0 auto;
+    width: 100%;
+    height: auto;
 }
 .title_zone1{
     text-align: center;
@@ -48,7 +51,7 @@ a:hover{
     width: 600px;
     height: 60px;
 }
-.box_zone1{ /* box_zone1 start */
+#box_zone1{ 
     background-image: url("../images/PORSCHE\ wallpaper.jfif");
     background-position: center;
     width: 800px;
@@ -59,7 +62,7 @@ a:hover{
     margin: 0 auto;
     padding: 40px;
 }
-.box_zone1:hover{
+#box_zone1:hover{
     font-size: 20px;
     color: white;
     border: 4px double red;
@@ -67,26 +70,22 @@ a:hover{
     line-height: 30px;
     transition-duration: 0.5s;
     text-align: justify;
-    text-transform: capitalize;
 }
-.box_zone1:hover .title_box_zone1{
+#box_zone1:hover .title_box_zone1{
     font-weight: bold;
     color: gold;
     text-shadow: 2px 2px 7px orangered;
     padding-bottom: 20px;
-}
-.box_zone1:hover .text_box_zone1{
-    text-shadow: 2px 2px 2px red;
-}/* zone1 end */ /* box_zone1*/
+}/* zone1 end */
 
-.line_section1{ /* line stat */
+.line_section1{
     margin-top: 40px;
     margin-bottom: 40px;
-}/* line end  */
+}
 
-.box1_zone2{ /* zone2 start */ /* box1_zone2 start */
+.box1_zone2{ /* zone2 start */
     width: 1100px;
-    height: 250px;
+    height: auto;
     border: 5px solid #d69200; 
     border-collapse: collapse;
     background-image: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
@@ -105,14 +104,17 @@ a:hover{
     border-radius: 20px;
     padding: 10px;
 }
+.text1_zone2:hover{
+    background-color: #0f2027;
+}
 .title_text1_zone2{
     color: red;
     font-size: 27px;
     text-shadow: 3px 3px 3px black;
     text-align: center;
-} /* box1_zone2 end */
+} 
 
-.box2_zone2{ /* box2_zone2 start */
+.box2_zone2{ 
     width: 1100px;
     height: 250px;
     border: 5px solid #d69200;
@@ -135,17 +137,19 @@ a:hover{
     padding: 10px;
     margin-left: 20px;
 }
+.text2_zone2:hover{
+    background-color: #0f2027;
+}
 .title_text2_zone2{
     color: red;
     font-size: 27px;
     text-shadow: 3px 3px 3px black;
     text-align: center;
-} /* zone2 end */ /* box2_zone2 end */
+} /* zone2 end */
 
-.line_section2{ /* line_section2 start */
+.line_section2{
     margin-top: 40px;
-} /* line_section2 end */
-
+}
 .mainbox_zone3{ /* zone3 stat */
     background-color: rgba(0, 0, 0, 0.534);
     width: 80%;
@@ -154,9 +158,12 @@ a:hover{
 }
 .title_mainbox_zone3{ 
     font-size: 25px;
-    color: white;
+    color: rgba(255, 255, 255, 0.781);
     text-align: right;
     padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: solid underline;
+    text-shadow: 5px 2px 5px rgba(221, 0, 0, 0.534);
 }
 .box1_zone3{ 
     width: 280px;
@@ -238,14 +245,19 @@ a:hover{
 .box_footer{ /* footer start */
     padding: 20px;
     background-color: rgba(221, 0, 0, 0.26);
+    text-align: center;
 }
 .fab{
-    font-size: 30px;
+    font-size: 35px;
     padding-left: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.815);
+}
+.fab:hover{
+    color: white;
 }
 .text_footer{
-    font-size: 15px;
-    margin-left: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
 }
-
